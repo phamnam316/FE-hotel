@@ -18,6 +18,8 @@ import {
   Testimonial,
 } from "./pages/index";
 import Footer from "./components/common/Footer";
+import SignUpPage from "./components/home/SignUpPage";
+import LoginPage from "./components/home/LoginPage";
 export default function App() {
   return (
     <>
@@ -25,6 +27,8 @@ export default function App() {
         <Router>
           <Header />
           <Routes>
+            <Route path="/login" element={<LoginPage />} />
+            <Route path="/signup" element={<SignUpPage />} />
             <Route path="/" element={<Home />} />
             <Route path="/booking" element={<Booking />} />
             <Route path="/team" element={<Team />} />

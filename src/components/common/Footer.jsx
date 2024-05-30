@@ -1,16 +1,16 @@
 import { Link } from "react-router-dom";
 import { footerContact, footerItem, socialIcons } from "../data/Data";
-import Newsletter from "../home/Newsletter";
+
 
 export default function Footer() {
   return (
     <>
-      <Newsletter />
+      
       <div
-        className="container-fluid bg-dark text-light footer wow fadeIn"
+        className="container-fluid bg-dark text-light wow fadeIn pt-3"
         data-wow-delay="0.1s"
       >
-        <div className="container pb-5">
+        <div className="container  pb-5">
           <div className="row g-5">
             <div className="col-md-6 col-lg-4">
               <div className="bg-primary rounded p-4">

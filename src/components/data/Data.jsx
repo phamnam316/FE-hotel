@@ -2,49 +2,49 @@ export const navList = [
   {
     id: 1,
     path: "/",
-    text: "Home",
+    text: "Trang chủ",
   },
   {
     id: 2,
     path: "/about",
-    text: "About",
+    text: "Về chúng tôi",
   },
   {
     id: 3,
     path: "/services",
-    text: "Services",
+    text: "Dịch vụ",
   },
   {
     id: 4,
     path: "/rooms",
-    text: "Rooms",
+    text: "Phòng nghỉ",
   },
   {
     id: 5,
     path: "/page",
-    text: "Page",
+    text: "Trang",
     subItems: [
       {
         id: 51,
         path: "/booking",
-        text: "Booking",
+        text: "Đặt phòng",
       },
       {
         id: 52,
         path: "/team",
-        text: "Our Team",
+        text: "Nhân viên",
       },
       {
         id: 53,
         path: "/testimonial",
-        text: "Testimonial",
+        text: "Đánh giá",
       },
     ],
   },
   {
     id: 6,
     path: "/contact",
-    text: "Contact",
+    text: "Liên hệ",
   },
 ];
 export const socialIcons = [
@@ -65,9 +65,16 @@ export const socialIcons = [
   },
 ];
 
+export const LoginData = [
+  {
+    img: "../assets/img/home.webp",
+
+  }
+];
+
 export const carouselData = [
   {
-    img: "../assets/img/carousel-1.jpg",
+    img: "../assets/img/home1.webp",
     title: "Discover A Brand Luxurious Hotel",
     subtitle: "luxury living",
     btn1: "Our Room",
@@ -84,59 +91,60 @@ export const carouselData = [
 export const about = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary mb-2"></i>,
-    text: "Rooms",
-    count: "7861",
+    text: "Phòng nghỉ",
+    count: "200",
   },
   {
     icon: <i class="fa fa-users fa-2x text-primary mb-2"></i>,
-    text: "Staffs",
-    count: "1234",
+    text: "Nhân viên",
+    count: "170",
   },
   {
     icon: <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>,
-    text: "Clients",
-    count: "4321",
+    text: "Khách hàng",
+    count: "2548",
   },
 ];
 
 export const services = [
   {
     icon: <i class="fa fa-hotel fa-2x text-primary"></i>,
-    name: "Rooms & Appartment",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Phòng nghỉ",
+    discription: " ",
   },
   {
     icon: <i class="fa fa-utensils fa-2x text-primary"></i>,
-    name: "Food & Restaurant",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Nhà hàng",
+    discription: " ",
   },
   {
     icon: <i class="fa fa-spa fa-2x text-primary"></i>,
     name: "Spa & Fitness",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: " ",
   },
 
   {
     icon: <i class="fa fa-swimmer fa-2x text-primary"></i>,
-    name: "Sports & Gaming",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Thể thao",
+    discription: " ",
   },
   {
     icon: <i class="fa fa-glass-cheers fa-2x text-primary"></i>,
-    name: "Event & Party",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    name: "Sự kiện",
+    discription: " ",
   },
 
   {
     icon: <i class="fa fa-dumbbell fa-2x text-primary"></i>,
     name: "GYM & Yoga",
-    discription: "Contrary to popular belief, ipsum is not simply random.",
+    discription: " ",
   },
 ];
+
 export const team = [
   {
     image: "../assets/img/team-1.jpg",
-    name: "Full Name",
+    name: "Phạm Nguyên Nam",
     designation: "Designation",
   },
   {
@@ -183,16 +191,16 @@ export const footerItem = [
     header: "Services",
     UnitItem: [
       {
-        name: "Food & Restaurant",
+        name: "Nhà hàng",
       },
       {
-        name: "Spa & Fitness",
+        name: "Spa ",
       },
       {
-        name: "Sports & Gaming",
+        name: "Thể thao",
       },
       {
-        name: "Event & Party",
+        name: "Sự kiện",
       },
       {
         name: "GYM & Yoga",
@@ -204,15 +212,15 @@ export const footerItem = [
 export const footerContact = [
   {
     icon: <i className="fa fa-map-marker-alt me-3"></i>,
-    name: "123 Street, New York, USA",
+    name: "Linh Trung, TP Thủ Đức",
   },
   {
     icon: <i className="fa fa-phone-alt me-3"></i>,
-    name: "+012 345 67890",
+    name: "+034 345 67890",
   },
   {
     icon: <i className="fa fa-envelope me-3"></i>,
-    name: "info@example.com",
+    name: "20520000@gm.uit.edu.vn",
   },
 ];
 
@@ -236,8 +244,8 @@ export const contact = [
 export const testimonial = [
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      " ",
+    name: "Khách hàng 1",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -246,8 +254,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      " ",
+    name: "Khách hàng 2",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -256,8 +264,8 @@ export const testimonial = [
   },
   {
     description:
-      "Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos",
-    name: "Client Name",
+      " ",
+    name: "Khách hàng 3",
     profession: "Profession",
     icon: (
       <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
@@ -269,8 +277,8 @@ export const testimonial = [
 export const roomItems = [
   {
     img: "../assets/img/room-1.jpg",
-    price: "$110/night",
-    name: "Junior Suit",
+    price: "Liên hệ",
+    name: "Phòng nghỉ 1",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -279,15 +287,15 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      " ",
+    yellowbtn: "Xem chi tiết",
+    darkbtn: "Thuê ngay",
   },
 
   {
     img: "../assets/img/room-2.jpg",
-    price: "$110/night",
-    name: "Executive Suite",
+    price: "Liên hệ",
+    name: "Phòng nghỉ 2",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -296,14 +304,14 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      " ",
+    yellowbtn: "Xem chi tiết",
+    darkbtn: "Thuê ngay",
   },
   {
     img: "../assets/img/room-3.jpg",
-    price: "$110/night",
-    name: "Super Deluxe",
+    price: "Liên hệ",
+    name: "Phòng nghỉ 3",
     star: [
       <small class="fa fa-star text-primary"></small>,
       <small class="fa fa-star text-primary"></small>,
@@ -312,9 +320,9 @@ export const roomItems = [
       <small class="fa fa-star text-primary"></small>,
     ],
     description:
-      "Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.",
-    yellowbtn: "View Detail",
-    darkbtn: "book now",
+      " ",
+    yellowbtn: "Xem chi tiết",
+    darkbtn: "Thuê ngay",
   },
 ];
 
@@ -322,15 +330,16 @@ export const facility = [
   {
     icon: <i class="fa fa-bed text-primary me-2"></i>,
     quantity: 3,
-    facility: "bed",
+    facility: "giường",
   },
   {
     icon: <i class="fa fa-bath text-primary me-2"></i>,
     quantity: 2,
-    facility: "bath",
+    facility: "bồn tắm",
   },
   {
     icon: <i class="fa fa-wifi text-primary me-2"></i>,
     facility: "Wifi",
   },
 ];
+

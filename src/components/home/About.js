@@ -13,13 +13,13 @@ export default function About() {
                 About Us
               </h6>
               <h1 className="mb-4">
-                Welcome to{" "}
-                <span className="text-primary text-uppercase">Hotelier</span>
+                Chào mừng bạn đến với{" "}
+                <span className="text-primary text-uppercase">TheSun</span>
               </h1>
               <p className="mb-4">
-                Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-                Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-                sed stet lorem sit clita duo justo magna dolore erat amet
+              TheSun Resort là khu nghỉ dưỡng cao cấp nằm bên bờ biển tuyệt đẹp, 
+              mang đến cho du khách trải nghiệm nghỉ dưỡng sang trọng và thư giãn với dịch vụ đẳng cấp và khung cảnh thiên nhiên hùng vĩ.
+               Nơi đây là lựa chọn lý tưởng cho những ai tìm kiếm sự yên bình và tiện nghi trong kỳ nghỉ.
               </p>
               <div className="row g-3 pb-4">
                 {about.map((item, key) => (
