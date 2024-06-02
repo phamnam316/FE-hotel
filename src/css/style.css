@@ -494,3 +494,25 @@
     background-image: url('../../public/assets/img/bien1.jpg');
     background-size: cover; /* Đảm bảo hình nền sẽ được căn chỉnh vừa với kích thước của thành phần */
 }
+.signup{
+    height: 80vh;
+    background-image: url('../../public/assets/img/bien1.jpg');
+    background-size: cover; /* Đảm bảo hình nền sẽ được căn chỉnh vừa với kích thước của thành phần */
+}
+.overlay-image {
+    position: absolute;
+    bottom: -10px; /* Điều chỉnh vị trí dọc theo ý muốn */
+    left: -10px;   /* Điều chỉnh vị trí ngang theo ý muốn */
+    width: 300px; /* Kích thước của hình ảnh overlay */
+    border: 5px solid white; /* Tạo viền trắng cho ảnh overlay */
+}
+.custom-btn {
+    background-color: transparent;
+    border: 1px solid #111112; /* Màu xanh dương của Bootstrap primary */
+    color: #151618; /* Màu chữ */
+  }
+  
+.custom-btn:hover {
+    background-color: rgba(81, 82, 82, 0.1); /* Màu nền nhạt khi hover */
+  }
+  
